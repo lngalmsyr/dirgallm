@@ -64,7 +64,7 @@ def load_file_content(file):
 os.environ["OLLAMA_API_BASE"] = "http://localhost:11434"
 
 # Streamlit App
-st.title("Ollama LLM with Streamlit")
+st.title("DirgaInsight AI")
 
 # Sidebar untuk pemilihan model
 st.sidebar.header("Ollama Model Settings")
