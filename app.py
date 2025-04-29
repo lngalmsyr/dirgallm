@@ -26,14 +26,14 @@ import time
 # # Load the image
 # image_path = "/home/lng/dirga/dirgallm/assets/dirgabanner.jpg"
 
-# Use st.columns to center the image
-col1, col2, col3 = st.columns(3)
+# # Use st.columns to center the image
+# col1, col2, col3 = st.columns(3)
 
-with col2:
-    st.image(
-        image_path,
-        use_column_width=True,  # Automatically adjust width to column
-    )
+# with col2:
+#     st.image(
+#         image_path,
+#         use_column_width=True,  # Automatically adjust width to column
+#     )
 
 
 # Set Ollama API endpoint (important!)
