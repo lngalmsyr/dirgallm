@@ -53,7 +53,7 @@ st.title("Ollama LLM with Streamlit")
 
 # Sidebar for Ollama Model Selection
 st.sidebar.header("Ollama Model Settings")
-model_name = st.sidebar.selectbox("Select Ollama Model", ["deepseek-r1:7b", "gemma3:4b"])  # Add your models here
+model_name = st.sidebar.selectbox("Select Ollama Model", ["gemma3:1b"])  # Add your models here
 
 # Initialize Ollama LLM
 @st.cache_resource  # Cache the LLM to avoid reloading on each interaction
