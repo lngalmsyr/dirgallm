@@ -24,7 +24,7 @@ import time
 
 
 # Load the image
-image_path = "/home/lng/dirga/dirgallm/assets/dirgabanner.png"
+image_path = "/home/lng/dirga/dirgallm/assets/dirgabanner.jpg"
 
 # Use st.columns to center the image
 col1, col2, col3 = st.columns(3)
